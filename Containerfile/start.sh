@@ -1,0 +1,1 @@
+podman run -d --name prometheus --network monitor -v /etc/prometheus:/etc/prometheus -p 9090:9090 docker.io/qisware/yuntech-prometheus:v2.44.0

@@ -1,0 +1,1 @@
+podman run -d --name pgsql -v pgdata:/var/lib/postgresql/data/ --network db -e POSTGRES_PASSWORD=secret docker.io/library/postgres

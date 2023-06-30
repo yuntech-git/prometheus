@@ -1,0 +1,1 @@
+podman run --network db --network monitor --name postgres-exporter -e DATA_SOURCE_NAME="postgresql://postgres:secret@pgsql:5432/postgres?sslmode=disable" quay.io/prometheuscommunity/postgres-exporter
